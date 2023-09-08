@@ -1,0 +1,53 @@
+<form autocomplete="off">
+    <div class="row text-center">
+        <div class="col">
+            <label for="nombre">
+                <i class="bi bi-person-circle"></i> Nombre:
+            </label>
+            <input type="text" name="nombre" id="nombre" required minlength="10" class="form-control"
+                placeholder="Ingrese su nombre" />
+        </div>
+        <div class="col">
+            <label for="apellido">
+                <i class="bi bi-person-badge"></i> Apellido:
+            </label>
+            <input type="text" name="apellido" id="apellido" required minlength="10" class="form-control"
+                placeholder="Ingrese su apellido" />
+        </div>
+    </div>
+    <div class="row text-center mt-3">
+        <div class="col">
+            <label for="email">
+                <i class="bi bi-envelope-at-fill"></i> Email:
+            </label>
+            <input type="email" name="email" id="email" required minlength="10" class="form-control"
+                placeholder="Ingrese su email" />
+        </div>
+        <div class="col">
+            <div class="row">
+                <div class="col">
+                    <label for="area">
+                        <i class="bi bi-building-fill"></i> Area telefónica:
+                    </label>
+                    <input type="number" name="area" id="area" required minlength="10" class="form-control"
+                        maxlength="15" placeholder="Ingrese su area telefonica" />
+                </div>
+                <div class="col">
+                    <label for="phone">
+                        <i class="bi bi-telephone-fill"></i> Numero de telefono:
+                    </label>
+                    <input type="number" name="phone" id="phone" required minlength="10" class="form-control"
+                        maxlength="15" placeholder="Ingrese su numero telefonico" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mt-3 text-center">
+        <label for="phone">
+            <i class="bi bi-box2-fill"></i> Tema de la consulta:
+        </label>
+        <textarea class="form-control"></textarea>
+    </div>
+    <button type="submit" [disabled]="" class="btn btn-success btn-block mt-5"><i
+            class="bi bi-caret-right-square-fill"></i> Enviar Datos</button>
+</form>

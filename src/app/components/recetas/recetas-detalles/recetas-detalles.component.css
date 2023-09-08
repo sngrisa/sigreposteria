@@ -1,0 +1,31 @@
+.btn{
+    margin-right: 50px;
+}
+
+
+img{
+    width: 500px;
+    height: auto;
+    border-radius: 10%;
+}
+
+
+.card-body{
+    border-radius: 5%;
+    background-color: black;
+    color: aliceblue;
+}
+
+iframe{
+    border-radius: 10%;
+}
+
+a{
+    text-decoration: none;
+}
+
+#btn-paulina{
+    background-color: brown;
+    margin-top: 50px;
+    border-radius: 10%;
+}
