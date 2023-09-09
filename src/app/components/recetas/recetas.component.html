@@ -1,4 +1,6 @@
-<div class="text-center">
-    <app-recetas-detalles></app-recetas-detalles>
+<div class="row">
+    <div class="col mt-5" *ngFor="let recetaMenu of recetasMenu; let i = index">
+        <app-cards-recetas [menuItem]="recetaMenu"></app-cards-recetas>
+    </div>
 </div>
 
