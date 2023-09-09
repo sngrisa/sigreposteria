@@ -1,0 +1,21 @@
+ul, ol{
+    padding-top: 30px;
+    text-align: center;
+    list-style: none;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100px;
+    margin-bottom: 10%;
+}
+
+img{
+    border-radius: 10%;
+    margin-bottom: 10%;
+    width: 500px;
+    height: auto;
+}
+
+h2{
+    text-align: center;
+    margin-top: 40px;
+}

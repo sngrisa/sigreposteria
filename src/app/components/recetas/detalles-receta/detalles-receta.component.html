@@ -1,1 +1,19 @@
-<p>detalles-receta works!</p>
+
+<div class="text-center row">
+    <div class="col mt-5">
+        <h2>{{recipe?.name}}</h2>
+        <img [src]="recipe?.imgUrl" [alt]="recipe?.name" />
+    </div>
+    <div class="col">
+        <ul class="list-group">
+            <h4 class="text-center list-group-item"><b>Ingredientes</b> </h4>
+            <li class="list-group-item" *ngFor="let item of recipe?.ingredients; let i = index"><b> {{item}}</b></li>
+        </ul>
+    </div>
+</div>
+
+
+<ul class="list-group">
+    <h4 class="text-center list-group-item"><b>Pasos</b> </h4>
+    <li class="list-group-item" *ngFor="let item of recipe?.steps; let i = index"><b>{{i+1}} - {{item}}</b></li>
+</ul>

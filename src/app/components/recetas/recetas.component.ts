@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem } from '../interfaces/MenuItem.interface';
+import { MenuItem } from '../interfaces/MenuItem.model';
 import { RecetasServiceService } from 'src/app/services/recetas-service.service';
 
 @Component({
@@ -10,13 +10,7 @@ import { RecetasServiceService } from 'src/app/services/recetas-service.service'
 
 
 
-export class RecetasComponent implements OnInit {
-
-  constructor(private recetasService: RecetasServiceService){}
-
-  ngOnInit(): void {
-    this.recetasService.getRecetas("1").then((result)=> console.log(result));
-  }
+export class RecetasComponent {
 
   recetasMenu: MenuItem[] = [
     {
