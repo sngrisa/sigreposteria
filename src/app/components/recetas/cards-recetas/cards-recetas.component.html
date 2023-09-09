@@ -1,8 +1,8 @@
 <div class="text-center container">
-  <div class="card" style="width: 18rem;">
+  <div class="card" style="width: 18rem;" [routerLink]="[menuItem.url]">
     <img class="card-img-top" [src]="menuItem.imgUrl" [alt]="menuItem.name">
     <div class="card-body">
-      <h5 class="card-title"><i class="bi bi-book"></i> {{menuItem.name}}</h5>
+      <h5 class="card-title">{{menuItem.name}}</h5>
       <p class="card-text">{{menuItem.description}}</p>
       <button [routerLink]="[menuItem.url]" class="btn btn-dark btn-block mt-2">
         <i [class]="menuItem.button"></i> Ver Receta
