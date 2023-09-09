@@ -8,7 +8,9 @@ export class RecetasServiceService {
   constructor() { }
 
   getRecetas = async (id: string) =>{
-    let url = await fetch(`./data/data.json`);
+    console.log("asdasdasdsad");
+    
+    let url = await fetch('http://localhost:4200/assets/data.json');
     return url.json();
   }
 }
