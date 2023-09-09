@@ -7,6 +7,7 @@ import { SharedModule } from './shared/shared.module';
 import { RouterModule } from '@angular/router';
 import { ComponentsModule } from './components/components.module';
 import { HttpClientModule } from "@angular/common/http";
+import { ServicesModule } from './services/services.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HttpClientModule } from "@angular/common/http";
     SharedModule,
     RouterModule,
     ComponentsModule,
-    HttpClientModule
+    HttpClientModule,
+    ServicesModule
 
   ],
   providers: [],
