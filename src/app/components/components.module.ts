@@ -5,6 +5,7 @@ import { ImgComponent } from './home/img/img.component';
 import { RecetasComponent } from './recetas/recetas.component';
 import { ComponentsRoutingModule } from './components-routing.module';
 import { CardsRecetasComponent } from './recetas/cards-recetas/cards-recetas.component';
+import { DetallesRecetaComponent } from './recetas/detalles-receta/detalles-receta.component';
 
 
 
@@ -14,6 +15,7 @@ import { CardsRecetasComponent } from './recetas/cards-recetas/cards-recetas.com
     ImgComponent,
     RecetasComponent,
     CardsRecetasComponent,
+    DetallesRecetaComponent,
   ],
   imports: [
     CommonModule,
