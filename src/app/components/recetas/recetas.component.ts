@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { MenuItem } from '../interfaces/MenuItem.interface';
+import { RecetasServiceService } from 'src/app/services/recetas-service.service';
 
 @Component({
   selector: 'app-recetas',
@@ -9,7 +10,13 @@ import { MenuItem } from '../interfaces/MenuItem.interface';
 
 
 
-export class RecetasComponent {
+export class RecetasComponent implements OnInit {
+
+  constructor(private recetasService: RecetasServiceService){}
+
+  ngOnInit(): void {
+    this.recetasService.getRecetas("1").then((result)=> console.log(result));
+  }
 
   recetasMenu: MenuItem[] = [
     {

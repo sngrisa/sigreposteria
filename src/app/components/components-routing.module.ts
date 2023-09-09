@@ -5,7 +5,7 @@ import { DetallesRecetaComponent } from './recetas/detalles-receta/detalles-rece
 
 const routes: Routes = [
   { path: '', component: RecetasComponent },
-  { path: 'detallesReceta', component: DetallesRecetaComponent },
+  { path: ':id', component: DetallesRecetaComponent },
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
 
