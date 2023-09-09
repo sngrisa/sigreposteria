@@ -1,6 +1,5 @@
 <div class="row">
-    <div class="col mt-5" *ngFor="let recetaMenu of recetasMenu; let i = index">
-        <app-cards-recetas [menuItem]="recetaMenu"></app-cards-recetas>
+    <div class="col col-md-4 mt-5" *ngFor="let recetaMenu of recetasMenu; let i = index">
+        <app-cards-recetas class="d-flex justify-content-center" [menuItem]="recetaMenu"></app-cards-recetas>
     </div>
 </div>
-
