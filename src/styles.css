@@ -2,9 +2,18 @@
     padding: .5rem 7rem !important;
     min-height: 80px !important;
     font-size: 20px;
-    color: white !important;
-    background-color: black !important;
+    color: black !important;
+    background-color: lightgray !important;
     font-weight: bolder !important;
+    border-bottom: 1px solid black;
+}
+
+.navbar > * {
+    color: black !important;
+}
+
+.navbar-brand, .nav-link  {
+    color: black !important;
 }
 
 @media (min-width: 992px) {
