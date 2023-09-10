@@ -1,10 +1,11 @@
 [
     {
+        "id": 1,
         "name": "Pastafrola",
         "ingredients": [
             "Huevo 1",
             "Yema 1",
-            "Harina leudante 400 gr",
+            "Harina leudante 400 grs",
             "Azúcar 200 gr",
             "Manteca 200 gr",
             "Esencia de vainilla 1cda",
@@ -26,6 +27,7 @@
         "videoUrl": "https://www.youtube.com/embed/NfX-AHIyiBM?si=AX_slCBkv294Hfpw"
     },
     {
+        "id": 2,
         "name": "Bizcocho de Chocolate",
         "ingredients": [
             "3 huevos",
@@ -49,6 +51,7 @@
         "videoUrl": "https://www.youtube.com/embed/rqgc5jVT5Sw?si=Zi3PlOdtQ51DP_9X"
     },
     {
+        "id": 3,
         "name": "Bizcocho de Naranja",
         "ingredients": [
             "4 huevos",
@@ -72,6 +75,7 @@
         "videoUrl": "Ya fue"
     },
     {
+        "id": 4,
         "name": "",
         "ingredients": [
             "200g. de galletitas de vainilla",
