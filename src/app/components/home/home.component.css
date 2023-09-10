@@ -11,6 +11,10 @@
     align-self: center;
 }
 
+#recipes {
+    margin-bottom: 4em;
+}
+
 #tomato {
     position: absolute;
     bottom: 87px;

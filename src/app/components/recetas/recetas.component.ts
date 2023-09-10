@@ -1,6 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { MenuItem } from '../interfaces/MenuItem.model';
-import { RecetasServiceService } from 'src/app/services/recetas-service.service';
 
 @Component({
   selector: 'app-recetas',
@@ -10,7 +9,17 @@ import { RecetasServiceService } from 'src/app/services/recetas-service.service'
 
 
 
-export class RecetasComponent {
+export class RecetasComponent implements OnInit {
+  @Input() limit!: number;
+
+
+  ngOnInit(): void {
+    console.log(this.limit);
+
+    if (this.limit != undefined) {
+      this.recetasMenu = this.recetasMenu.slice(0, this.limit)
+    }
+  }
 
   recetasMenu: MenuItem[] = [
     {
