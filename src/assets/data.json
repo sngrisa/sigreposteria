@@ -24,7 +24,10 @@
             "La llevamos al horno a 200° por unos 40 minutos o hasta que esté doradita"
         ],
         "imgUrl": "https://www.paulinacocina.net/wp-content/uploads/2020/08/pasta-frola2-640x480.png",
-        "videoUrl": "https://www.youtube.com/embed/NfX-AHIyiBM?si=AX_slCBkv294Hfpw"
+        "videoUrl": "https://www.youtube.com/embed/NfX-AHIyiBM?si=AX_slCBkv294Hfpw",
+        "description": [
+            "Pastafrola es una tarta artesanal típica de la gastronomía de Italia, Egipto, Grecia, Paraguay, Argentina y Uruguay. Su día internacional es el 18 de julio, se compone de una masa cubierta tradicionalmente con dulce de batata o dulce de membrillo. Existen variantes con dulce de guayaba que es característico de la gastronomía paraguaya.2​ En Argentina y Uruguay también puede hacerse con dulce de leche o crema pastelera.3​ Es adornada con tiras delgadas de la misma masa, dando forma de cuadriculado romboidal sobre la capa de dulce. La cocción es al horno y es un acompañamiento típico de la merienda o del mate, o a toda hora del día."
+        ]
     },
     {
         "id": 2,
@@ -48,7 +51,11 @@
             "Pasado este tiempo y luego de hacer la prueba del tenedor (si lo introducen en la torta y sale seco, quiere decir que el bizcochuelo ya está bien cocido) lo retiran del horno ¡y listo!"
         ],
         "imgUrl": "https://www.paulinacocina.net/wp-content/uploads/2020/08/okokok-640x480.jpg",
-        "videoUrl": "https://www.youtube.com/embed/rqgc5jVT5Sw?si=Zi3PlOdtQ51DP_9X"
+        "videoUrl": "https://www.youtube.com/embed/rqgc5jVT5Sw?si=Zi3PlOdtQ51DP_9X",
+        "description": [
+            "Es un postre conocido internacionalmente, que se popularizó a finales del siglo xix y se sirve frecuentemente en reuniones, como fiestas de cumpleaños y bodas. Los ingredientes pueden variar dependiendo de la receta, pero por lo general incluyen una combinación de huevos, azúcar, polvo de cacao, chocolate, mantequilla o aceite, agua o leche, sal y bicarbonato de sodio. Otras variaciones pueden incluir chocolate derretido, crema ácida, suero de mantequilla, jugo de frutas o jarabes",
+            "Los panaderos usan extracto de vainilla, licores o líquidos condimentados como el café, para añadir diferentes gustos al sabor del chocolate. Se usan además una variedad de decorados, escarchados o glaseados, así como especias"
+        ]
     },
     {
         "id": 3,
@@ -72,11 +79,16 @@
             "Hornear durante 35-45 minutos o hasta que el bizcocho esté doradito y firme al tacto. Dejar enfriar completamente antes de desmoldar y servir"
         ],
         "imgUrl": "https://www.paulinacocina.net/wp-content/uploads/2023/05/como-hacer-bizcocho-de-naranja.jpg",
-        "videoUrl": "Ya fue"
+        "videoUrl": "https://www.youtube.com/embed/NPv_05vZjKs?si=tm2LFxWkpviJvXtx",
+        "description":
+        [
+            "El bizcocho de naranja, también conocido como bizcochuelo de naranja, es un clásico de la repostería que le gusta a (casi) todo el mundo. Es una receta fácil y sabrosa, ideal para comer en una tarde con una amiga, llevar a la casa de alguien que nos invitó a la hora del té, o para disfrutar viendo una película con un rico café con leche",
+            "El bizcocho de naranja, es una opción perfecta para disfrutar en el desayuno y en la merienda, o cuando tengamos ganas, y su sabor fresco y cítrico lo hace ideal para cualquier época del año. Queda muy bien con un glaseado de naranja, azúcar glas (impalpable), cascaritas de naranja azucaradas, o simplemente así como sale del horno"
+        ]
     },
     {
         "id": 4,
-        "name": "",
+        "name": "Lemon Pie",
         "ingredients": [
             "200g. de galletitas de vainilla",
             "70g. de manteca",
@@ -98,6 +110,12 @@
             "La receta de lemon pie está lista!"
         ],
         "imgUrl": "https://www.paulinacocina.net/wp-content/uploads/2022/06/Como-hacer-Lemon-Pie-con-galletitas-800x534.jpg",
-        "videoUrl": "https://www.youtube.com/embed/9yuxHcfTczw?si=p9Gx1AwkyMBmOeHU"
+        "videoUrl": "https://www.youtube.com/embed/9yuxHcfTczw?si=p9Gx1AwkyMBmOeHU",
+        "description":
+        [
+            "La tarta de limón es una tarta formada por una base de masa quebrada u hojaldre que se rellena con crema de limón",
+            "Esta tarta a menudo se complementa con un merengue, lo que resulta en tarta de limón con merengue",
+            "Se compone de una base de masa y un relleno. Como su nombre indica está hecha con limón, más bien con el zumo del limón, azúcar y huevos. Todo ello mezclado hace el famoso custard, el relleno cremoso amarillo que es tan típico de la tarta de limón. Una aclaración: el lemon pie original, el clásico, el infaltable de cada banquete que daba la reina Isabel I de Inglaterra, no necesariamente lleva esa cobertura blanca esponjosa con que se conoce en la actualidad."
+        ]
     }
 ]

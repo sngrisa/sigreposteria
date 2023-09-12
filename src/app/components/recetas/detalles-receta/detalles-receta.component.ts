@@ -8,9 +8,11 @@ import { RecetasServiceService } from 'src/app/services/recetas-service.service'
   templateUrl: './detalles-receta.component.html',
   styleUrls: ['./detalles-receta.component.css']
 })
+
 export class DetallesRecetaComponent implements OnInit {
 
   recipe!: Recipe | undefined;
+ 
 
   constructor(private activateRouter: ActivatedRoute, private recetaService: RecetasServiceService) { }
 
@@ -21,6 +23,9 @@ export class DetallesRecetaComponent implements OnInit {
       })
     })
   }
+
+
+  
 
 
 

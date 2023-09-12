@@ -8,6 +8,7 @@ import { RouterModule } from '@angular/router';
 import { ComponentsModule } from './components/components.module';
 import { HttpClientModule } from "@angular/common/http";
 import { ServicesModule } from './services/services.module';
+import { PipesModule } from './pipes/pipes.module';
 
 @NgModule({
   declarations: [
@@ -20,8 +21,8 @@ import { ServicesModule } from './services/services.module';
     RouterModule,
     ComponentsModule,
     HttpClientModule,
-    ServicesModule
-
+    ServicesModule,
+    PipesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

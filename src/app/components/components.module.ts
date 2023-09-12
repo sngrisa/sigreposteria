@@ -6,26 +6,28 @@ import { RecetasComponent } from './recetas/recetas.component';
 import { ComponentsRoutingModule } from './components-routing.module';
 import { CardsRecetasComponent } from './recetas/cards-recetas/cards-recetas.component';
 import { DetallesRecetaComponent } from './recetas/detalles-receta/detalles-receta.component';
+import { PipesModule } from "../pipes/pipes.module";
 
 
 
 @NgModule({
-  declarations: [
-    HomeComponent,
-    ImgComponent,
-    RecetasComponent,
-    CardsRecetasComponent,
-    DetallesRecetaComponent,
-  ],
-  imports: [
-    CommonModule,
-    ComponentsRoutingModule
-  ],
-  exports: [
-    HomeComponent,
-    ImgComponent,
-    RecetasComponent,
-    ComponentsRoutingModule
-  ]
+    declarations: [
+        HomeComponent,
+        ImgComponent,
+        RecetasComponent,
+        CardsRecetasComponent,
+        DetallesRecetaComponent,
+    ],
+    exports: [
+        HomeComponent,
+        ImgComponent,
+        RecetasComponent,
+        ComponentsRoutingModule
+    ],
+    imports: [
+        CommonModule,
+        ComponentsRoutingModule,
+        PipesModule
+    ]
 })
 export class ComponentsModule { }
