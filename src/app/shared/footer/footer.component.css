@@ -1,0 +1,46 @@
+ul,
+ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-title {
+    font-family: ’Merriweather’, serif;
+    font-size: 1.375rem;
+    padding-bottom: 0.625rem;
+}
+
+.footer-social {
+    padding: 0 1.875rem 1.25rem;
+}
+
+.footer-social-list {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.25rem;
+}
+
+.footer-social-list li {
+    margin: 0.5rem;
+    font-size: 1.60rem;
+}
+
+.footer-legal-list {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.30rem;
+}
+
+.footer-legal-list li {
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+}
+
+.footer-legal-list li:nth-last-child(2) {
+    flex: 1;
+}

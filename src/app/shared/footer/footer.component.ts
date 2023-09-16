@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FooterItem } from 'src/app/components/interfaces/FooterItems.model';
 
 @Component({
   selector: 'app-footer',
@@ -6,5 +7,35 @@ import { Component } from '@angular/core';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent {
+
+  footerItems: FooterItem[] =
+    [
+      {
+        name: "Facebook",
+        url: "https://www.facebook.com/sigsoftware",
+        icon: "fa fa-facebook"
+      },
+      {
+        name: "Twitter",
+        url: "https://twitter.com/santiago_grisa",
+        icon: "fa fa-twitter"
+      },
+      {
+        name: "Instagram",
+        url: "",
+        icon: "fa fa-instagram"
+      },
+      {
+        name: "GitHub",
+        url: "",
+        icon: "fa fa-github"
+      },
+      {
+        name: "LinkedId",
+        url: "",
+        icon: "fab fa-linkedin"
+      }
+    ];
+
 
 }
