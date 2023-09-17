@@ -1,8 +1,11 @@
-<footer class="flex-container">
-    <section class="footer-items">
-        <li>&copy; 2023 SiG Software. Todos los derechos reservados</li>
+<footer class="flex-container mt-5">
+    <hr>
+    <section class="footer-items d-flex">
         <ul class="footer-social-list">
-            <li *ngFor="let social of footerItems"><a [href]="social.url"><i [class]="social.icon"></i></a></li>
+            <li *ngFor="let social of footerItems">
+                <a [href]="social.url"><i [class]="social.icon"></i></a>
+            </li>
         </ul>
+        <h5>&copy; 2023 SiG Software. Todos los derechos reservados</h5>
     </section>
 </footer>

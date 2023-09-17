@@ -1,6 +1,4 @@
-
-
-li{
+li {
     list-style: none;
     font-weight: bolder;
 }
@@ -24,15 +22,17 @@ footer a {
 
 .footer-social-list li {
     margin: 0.5rem;
-    font-size: 1.20rem;
+    font-size: 2rem;
 }
 
 
 .footer-items {
-    padding: 0 1.875rem 1.25rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
+    flex-direction: column;
+    gap: 10px;
     justify-content: center;
-    padding-top: 1.25rem;
 }
 
 .footer-copyrigth li {
@@ -40,7 +40,9 @@ footer a {
     font-size: 1rem;
 }
 
-*, ::after, ::before {
+*,
+::after,
+::before {
     box-sizing: border-box;
     margin: auto;
 }

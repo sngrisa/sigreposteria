@@ -1,3 +1,7 @@
+html {
+    height: 100%;
+}
+
 .navbar {
     padding: .5rem 7rem !important;
     min-height: 80px !important;
@@ -75,4 +79,10 @@ footer{
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border: 0;
+    border-radius: 15px;
 }
