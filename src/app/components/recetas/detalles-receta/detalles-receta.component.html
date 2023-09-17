@@ -1,19 +1,27 @@
 <article>
-    <h1>{{recipe?.name}}</h1>
+    <h1 class="text-center mb-5">{{recipe?.name}}</h1>
     <div class="row">
         <div class="col">
-            <img [src]="recipe?.imgUrl" [alt]="recipe?.name" />
+            <img [src]="recipe?.imgUrl" [alt]="recipe?.name" class="card-img-top"/>
         </div>
         <div class="col">
-            <div class="alert alert-info">
-                <h3>Ingredientes:</h3>
-                <ul class="ingredients">
-                    <li *ngFor="let ingredient of recipe?.ingredients">
-                        {{ingredient?.quantity}} 
-                        {{ingredient?.ingredient}}
-                    </li>
-                </ul>
+            <div class="card bg-info text-white">
+                <h3 class="text-center mt-3">Ingredientes:</h3>
+                <hr class="text-white">
+                <div *ngFor="let ingredient of recipe?.ingredients" class="ingredients">
+                    <p class="ml-5">{{ingredient.ingredient}}</p>
+                    <p class="mr-5">{{ingredient.quantity}}</p>
+                </div>
             </div>
+        </div>
+    </div>
+    <div class="row card card-steps mt-5">
+        <h3 class="text-center mt-3">Preparación:</h3>
+        <hr class="text-white">
+        <div class="col mb-3">
+            <ul *ngFor="let step of recipe?.steps; let i = index">
+                <li>{{i+1}} - {{step}}</li>
+            </ul>
         </div>
     </div>
 
