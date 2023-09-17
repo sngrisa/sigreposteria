@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { MenuItem } from '../../interfaces/MenuItem.model';
+import { MenuItem } from '../../../interfaces/MenuItem.model';
 import { RecetasServiceService } from 'src/app/services/recetas-service.service';
 
 @Component({

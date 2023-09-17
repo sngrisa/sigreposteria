@@ -1,27 +1,17 @@
-<article class='recipe-card text-center'>
-    <h2><i class="bi bi-apple"></i> {{recipe?.name}}</h2>
-    <img [src]="recipe?.imgUrl" [alt]="recipe?.name">
-    <section class="pt-2">
-        <h3><i class="bi bi-book-half"></i> Descripción:</h3>
-        <ul class="text-center mr-3">
-            <li *ngFor="let item of recipe?.description">{{item}}</li>
-        </ul>
-    </section>
-    <section class="pt-2">
-        <h3><i class="bi bi-basket2-fill"></i> Ingredientes:</h3>
-        <ul class='ingredient-list'>
-            <li *ngFor="let item of recipe?.ingredients">{{item}}</li>
-        </ul>
-    </section>
-    <section class="text-center pt-2">
-        <h3><i class="bi bi-pencil-fill"></i> Preperación:</h3>
-        <ol class="mr-4">
-            <li *ngFor="let step of recipe?.steps">{{step}}</li>
-        </ol>
-    </section>
-    <section class="mb-3 pt-2">
-        <h3><i class="bi bi-camera-video-fill"></i> Video Instructivo:</h3>
-        <iframe class="video" [src]="recipe?.videoUrl | secure" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </section>
-    <a [routerLink]="['/recetas']" class="btn pt-3">Volver a la página de Inicio</a>
+<article>
+    <h1>{{recipe?.name}}</h1>
+    <div class="row">
+        <div class="col">
+            <img [src]="recipe?.imgUrl" [alt]="recipe?.name" />
+        </div>
+        <div class="col">
+            <div class="alert alert-info">
+                <h3>Ingredientes:</h3>
+                <ul class="ingredients">
+                    <li *ngFor="let ingredient of recipe?.ingredients">{{ingredient}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
 </article>

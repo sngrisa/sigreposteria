@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Recipe } from '../../interfaces/Recipe.model';
 import { ActivatedRoute, Params } from '@angular/router';
 import { RecetasServiceService } from 'src/app/services/recetas-service.service';
+import { Recipe } from '../../interfaces/Recipe.model';
 
 @Component({
   selector: 'app-detalles-receta',
@@ -12,7 +12,7 @@ import { RecetasServiceService } from 'src/app/services/recetas-service.service'
 export class DetallesRecetaComponent implements OnInit {
 
   recipe!: Recipe | undefined;
- 
+  ingredients!: String[];
 
   constructor(private activateRouter: ActivatedRoute, private recetaService: RecetasServiceService) { }
 

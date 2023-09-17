@@ -22,7 +22,7 @@ export class FooterComponent {
       },
       {
         name: "Instagram",
-        url: "",
+        url: "https://www.instagram.com/sant_cba/",
         icon: "fa fa-instagram"
       },
       {
@@ -33,7 +33,7 @@ export class FooterComponent {
       {
         name: "LinkedId",
         url: "",
-        icon: "fab fa-linkedin"
+        icon: "fa fa-linkedin"
       }
     ];
 
