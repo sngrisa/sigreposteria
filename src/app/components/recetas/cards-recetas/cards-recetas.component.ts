@@ -1,6 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { MenuItem } from '../../../interfaces/MenuItem.model';
-import { RecetasServiceService } from 'src/app/services/recetas-service.service';
+import { MenuItem } from '../../interfaces/MenuItem.model';
 
 @Component({
   selector: 'app-cards-recetas',

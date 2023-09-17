@@ -3,16 +3,46 @@
         "id": 1,
         "name": "Pastafrola",
         "ingredients": [
-            "Huevo 1",
-            "Yema 1",
-            "Harina leudante 400 grs",
-            "Azúcar 200 gr",
-            "Manteca 200 gr",
-            "Esencia de vainilla 1cda",
-            "Sal 1 cdta",
-            "Dulce de membrillo 200 grs",
-            "Dulce de batata 200 grs",
-            "Agua c/n"
+            {
+                "ingredient": "Huevo",
+                "quantity": "1"
+            },
+            {
+                "ingredient": "Yema",
+                "quantity": "1"
+            },
+            {
+                "ingredient": "Harina leudante",
+                "quantity": "400 grs"
+            },
+            {
+                "ingredient": "Azúcar",
+                "quantity": "200 grs"
+            },
+            {
+                "ingredient": "Manteca",
+                "quantity": "200 grs"
+            },
+            {
+                "ingredient": "Esencia de vainilla",
+                "quantity": "1cda"
+            },
+            {
+                "ingredient": "Sal",
+                "quantity": "1 cda"
+            },
+            {
+                "ingredient": "Dulce de membrillo",
+                "quantity": "200 grs"
+            },
+            {
+                "ingredient": "Dulce de batata",
+                "quantity": "200 grs"
+            },
+            {
+                "ingredient": "Agua",
+                "quantity": "c/n"
+            }
         ],
         "steps": [
             "Lo primero que vamos a hacer es poner en un bol la manteca cortada en cubitos. Que no esté super fría ni muy derretida. La vamos a batir con el azúcar hasta que se forme una crema clarita y bien lisa",
@@ -33,12 +63,30 @@
         "id": 2,
         "name": "Bizcocho de Chocolate",
         "ingredients": [
-            "3 huevos",
-            "1 taza de azúcar negra (puede ser blanca también, es solo por el efecto del color)",
-            "1/2 taza de aceite",
-            "150g. de chocolate semiamargo",
-            "1 y 1/2 taza de harina leudante",
-            "1 chorro leche"
+            {
+                "ingredient": "Huevos",
+                "quantity": "3"
+            },
+            {
+                "ingredient": "Taza de azúcar negra",
+                "quantity": "1"
+            },
+            {
+                "ingredient": "Taza de aceite",
+                "quantity": "1/2"
+            },
+            {
+                "ingredient": "Chocolate semiamargo",
+                "quantity": "150 grs"
+            },
+            {
+                "ingredient": "Taza de harina leudante",
+                "quantity": "1,5"
+            },
+            {
+                "ingredient": "Chorro de leche",
+                "quantity": "1"
+            }
         ],
         "steps": [
             "En un bol vamos a poner la azúcar negra con los 3 huevos. Vamos a batir (a mano o con batidora) hasta que los ingredientes estén bien incorporados entre sí",
@@ -61,14 +109,38 @@
         "id": 3,
         "name": "Bizcocho de Naranja",
         "ingredients": [
-            "4 huevos",
-            "200 g de azúcar",
-            "250 g de harina",
-            "1 cucharada de polvo de hornear o leudante",
-            "100 ml de aceite de girasol",
-            "120 ml de jugo de naranja",
-            "Ralladura de 1 naranja",
-            "Manteca para enmantecar el molde"
+            {
+                "ingredient": "Huevos",
+                "quantity": "4"
+            },
+            {
+                "ingredient": "Azúcar",
+                "quantity": "200 grs"
+            },
+            {
+                "ingredient": "Harina",
+                "quantity": "250 grs"
+            },
+            {
+                "ingredient": "Polvo de hornear o leudante",
+                "quantity": "1 cucharada"
+            },
+            {
+                "ingredient": "Aceite de girasol",
+                "quantity": "100 ml"
+            },
+            {
+                "ingredient": "Jugo de naranja",
+                "quantity": "120 ml"
+            },
+            {
+                "ingredient": "Ralladura",
+                "quantity": "1 naranja"
+            },
+            {
+                "ingredient": "Manteca",
+                "quantity": "Todo el molde"
+            }
         ],
         "steps": [
             "Precalentar el horno a 180 grados",
@@ -80,8 +152,7 @@
         ],
         "imgUrl": "https://www.paulinacocina.net/wp-content/uploads/2023/05/como-hacer-bizcocho-de-naranja.jpg",
         "videoUrl": "https://www.youtube.com/embed/NPv_05vZjKs?si=tm2LFxWkpviJvXtx",
-        "description":
-        [
+        "description": [
             "El bizcocho de naranja, también conocido como bizcochuelo de naranja, es un clásico de la repostería que le gusta a (casi) todo el mundo. Es una receta fácil y sabrosa, ideal para comer en una tarde con una amiga, llevar a la casa de alguien que nos invitó a la hora del té, o para disfrutar viendo una película con un rico café con leche",
             "El bizcocho de naranja, es una opción perfecta para disfrutar en el desayuno y en la merienda, o cuando tengamos ganas, y su sabor fresco y cítrico lo hace ideal para cualquier época del año. Queda muy bien con un glaseado de naranja, azúcar glas (impalpable), cascaritas de naranja azucaradas, o simplemente así como sale del horno"
         ]
@@ -90,13 +161,34 @@
         "id": 4,
         "name": "Lemon Pie",
         "ingredients": [
-            "200g. de galletitas de vainilla",
-            "70g. de manteca",
-            "4 huevos",
-            "1 lata de leche condensada",
-            "1/2 vaso de jugo de limón",
-            "Ralladura de medio limón",
-            "200g. de azúcar"
+            {
+                "ingredient": "Galletas de vainilla",
+                "quantity": "200 grs"
+            },
+            {
+                "ingredient": "Manteca",
+                "quantity": "70 grs"
+            },
+            {
+                "ingredient": "Huevos",
+                "quantity": "4"
+            },
+            {
+                "ingredient": "Leche condensada",
+                "quantity": "1 lata"
+            },
+            {
+                "ingredient": "Jugo de limón",
+                "quantity": "1/2 vaso"
+            },
+            {
+                "ingredient": "Ralladura",
+                "quantity": "1/2 medio de limón"
+            },
+            {
+                "ingredient": "Azúcar",
+                "quantity": "200 grs"
+            }
         ],
         "steps": [
             "Moler 200 gr de galletitas de vainilla y colocar en un recipiente.",
@@ -111,8 +203,7 @@
         ],
         "imgUrl": "https://www.paulinacocina.net/wp-content/uploads/2022/06/Como-hacer-Lemon-Pie-con-galletitas-800x534.jpg",
         "videoUrl": "https://www.youtube.com/embed/9yuxHcfTczw?si=p9Gx1AwkyMBmOeHU",
-        "description":
-        [
+        "description": [
             "La tarta de limón es una tarta formada por una base de masa quebrada u hojaldre que se rellena con crema de limón",
             "Esta tarta a menudo se complementa con un merengue, lo que resulta en tarta de limón con merengue",
             "Se compone de una base de masa y un relleno. Como su nombre indica está hecha con limón, más bien con el zumo del limón, azúcar y huevos. Todo ello mezclado hace el famoso custard, el relleno cremoso amarillo que es tan típico de la tarta de limón. Una aclaración: el lemon pie original, el clásico, el infaltable de cada banquete que daba la reina Isabel I de Inglaterra, no necesariamente lleva esa cobertura blanca esponjosa con que se conoce en la actualidad."

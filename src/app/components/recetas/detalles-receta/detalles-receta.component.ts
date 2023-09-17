@@ -12,7 +12,6 @@ import { Recipe } from '../../interfaces/Recipe.model';
 export class DetallesRecetaComponent implements OnInit {
 
   recipe!: Recipe | undefined;
-  ingredients!: String[];
 
   constructor(private activateRouter: ActivatedRoute, private recetaService: RecetasServiceService) { }
 

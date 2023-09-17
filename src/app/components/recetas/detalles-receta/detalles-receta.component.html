@@ -8,7 +8,10 @@
             <div class="alert alert-info">
                 <h3>Ingredientes:</h3>
                 <ul class="ingredients">
-                    <li *ngFor="let ingredient of recipe?.ingredients">{{ingredient}}</li>
+                    <li *ngFor="let ingredient of recipe?.ingredients">
+                        {{ingredient?.quantity}} 
+                        {{ingredient?.ingredient}}
+                    </li>
                 </ul>
             </div>
         </div>
